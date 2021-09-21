@@ -1,0 +1,11 @@
+import { iRoute } from '../../interface/router.interface';
+import {  {{routerName}}Service } from './{{fileName}}.service'
+const {{fileName}}Service=new {{routerName}}Service();
+
+export const {{routerName}}Routes:iRoute[]=[
+    {
+        path: '/',
+        method: 'GET',
+        handler: {{fileName}}Service.index
+    }
+]

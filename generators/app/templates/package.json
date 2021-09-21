@@ -1,0 +1,23 @@
+{
+  "name": "hapi-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^17.9.0",
+    "@types/hapi": "^18.0.6",
+    "assert": "^2.0.0",
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev:build": "tsc -w",
+    "dev:start": "nodemon ./build/index.js",
+    "dev": "tsc && concurrently npm:dev:*",
+    "p":"plop"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.9" 
+  }
+}

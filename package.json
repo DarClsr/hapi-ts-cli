@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "yeoman-generator": "^5.4.0"
+  },
+  "name": "generator-iwan-hapi-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
