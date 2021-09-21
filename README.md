@@ -8,4 +8,4 @@ hapi node server
 ### yarn dev
 
 
-### yarn p user  创建文件
+### yarn p xxx  创建模块文件 eg:yarn p user  需要安装plop

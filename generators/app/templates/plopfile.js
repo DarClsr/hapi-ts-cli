@@ -15,7 +15,7 @@ module.exports = (plop) => {
                 {
                     type: 'add',
                     path: `src/modules/${fileName}/${fileName}.router.ts`,
-                    templateFile: 'plop_templates/moudle/router.hbs',
+                    templateFile: 'plop_templates/module/router.hbs',
                     data:{
                         routerName,
                         fileName,
@@ -24,7 +24,7 @@ module.exports = (plop) => {
                 {
                     type: 'add',
                     path: `src/modules/${fileName}/${fileName}.service.ts`,
-                    templateFile: 'plop_templates/moudle/service.hbs',
+                    templateFile: 'plop_templates/module/service.hbs',
                     data:{
                         serviceName:routerName,
                     }
