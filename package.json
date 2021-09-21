@@ -3,7 +3,7 @@
     "yeoman-generator": "^5.4.0"
   },
   "name": "generator-iwan-hapi-cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "generators/app/index.js",
   "license": "MIT"
 }
