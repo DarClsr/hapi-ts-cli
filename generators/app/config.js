@@ -13,5 +13,6 @@ const templates=[
     "package.json",
     "tsconfig.json",
     "readme.md",
+    "plopfile.js",
 ]
 module.exports=templates;

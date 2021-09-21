@@ -4,6 +4,6 @@
   },
   "name": "generator-iwan-hapi-cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "generators/app/index.js",
   "license": "MIT"
 }
